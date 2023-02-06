@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<p align="center">
+   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white/">
+   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+<p align="center">
+   <img src="src/assets/logo-top.png" #Fugazzeta/>
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+### Tópicos 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Descripción del Proyecto](#descripción-del-proyecto)
 
-### `npm test`
+- [Funcionalidades](#funcionalidades)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Pantallas](#pantallas)
 
-### `npm run build`
+- [Herramientas Utilizadas](#herramientas-utilizadas)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Demo](#demo)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Descripción del Proyecto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
+<p align="justify">
+ Este proyecto tiene como objetivo aplicar los conocimientos obtenidos en el curso de React de la pĺataforma de CoderHouse.
+ Se debe aplicar lo aprendido en las clases 1 2 3 y 4. 
+ Creacion de componentes, pasaje de datos por propiedades
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tareas
+<br>
 
-## Learn More
+✔️ `NavBar:` Crerar un componente NavBar que debera contener al componente CartWidget.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✔️ `CartWidget:` Componente que informa el contenido del carrito
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✔️ `ItemListContainer:` Componente que procesa un mensaje recibido por propiedad
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+###
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Herramientas Utilizadas
 
-### Advanced Configuration
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* [HTML5](https://html.spec.whatwg.org/multipage/) -Maqueteado
+* [CSS3](https://www.w3.org/Style/CSS/) - Manejo de estilos
+* [JAVASCRIPT](https://developer.mozilla.org/es/docs/Web/JavaScript) - Lenguaje de programacion
+* [NODEJS](https://nodejs.org/en/) - Entorno de trabajo
+* [REACT](https://es.reactjs.org/) - Biblioteca de javascript
+* [VSCODE](https://code.visualstudio.com/) - IDE de desarrollo
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⌨️  por [Rodrigo Zerrezuela](https://github.com/lrgz) 😊
