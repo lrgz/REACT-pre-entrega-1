@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap");
+
+
+h1 {
+    color: #892F30;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px; 
+    text-align: center;
+}
+
+span {
+    color: #892F30;
+    font-family: "Open Sans", sans-serif;
+    font-size:12px; 
+    text-align: center;
+}
