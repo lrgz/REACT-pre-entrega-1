@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import CartWidget from '../CartWidget/CartWidget'
+import {Link,NavLink} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -8,12 +9,12 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navigation">
-          <a href="#">
+          <Link to={"/"}>
             <img src="../../assets/logo.png" alt="Logo Fugazzeta" />
-          </a>
-        <a href="/" className="brand-name">
+          </Link>
+        <Link to={"/"} className="brand-name">
           Pizzeria Fugazzeta
-        </a>
+        </Link>
         <button className="hamburger">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,18 +32,20 @@ const Navbar = () => {
         <div className="navigation-menu">
           <ul>
             <li>
-              <a href="#">Clasicas</a>
+              <NavLink to={'/categoria/clasicas'}>Clasicas</NavLink>
             </li>
             <li>
-              <a href="#">Super</a>
+              <NavLink to={'/categoria/super'}>Super</NavLink>
             </li>
             <li>
-              <a href="#">Especiales</a>
+              <NavLink to={'/categoria/especiales'}>Especiales</NavLink>
             </li>
             <li>
-              <a href="#">Vegetarianas</a>
+              <NavLink to={'/categoria/vegetarianas'}>Vegetarianas</NavLink>
             </li>
-            <CartWidget />
+            <Link to={"/cart"}>
+                <CartWidget />
+            </Link>            
           </ul>
       
         </div>

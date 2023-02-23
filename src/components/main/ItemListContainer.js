@@ -3,6 +3,7 @@ import Spinner from '../Spinner/Spinner';
 import ItemCount from '../ItemCount/ItemCount';
 import './ItemListCintainer.css';
 import ItemList from '../ItemList/ItemList';
+import {useParams} from 'react-router-dom';
 
 /* MOCK DE DATOS */
 /*
@@ -26,12 +27,17 @@ const queryProducts = new Promise((res, rej) => {
 */
 
 
+
+
+
 const ItemListContainer = ({ msg }) => {
   const [products, setProducts] = useState([]);
   const [errors, setErrors] = useState(false);
-  const [status, setStatus] = useState(false)
+  const [status, setStatus] = useState(false);
+  const { categoria } = useParams();
+  const fileJson=(categoria=== undefined ?  '../../assets/Data/products.json' :  '../../assets/Data/'+categoria+ '.json');
 
-  const fileJson = '../../assets/Data/products.json';
+ 
 
   const onAdd = (count) => {
     console.log("el usuario selcciono ${count}")
@@ -74,7 +80,7 @@ const ItemListContainer = ({ msg }) => {
           }
         });
         const data = await result.json();
-
+        console.log(data)
         setStatus(true);
         setProducts(data);
       } catch (error) {
@@ -88,7 +94,7 @@ const ItemListContainer = ({ msg }) => {
     },3000);
     
 
-  }, [])
+  }, [categoria])
 
   return (
     <>
