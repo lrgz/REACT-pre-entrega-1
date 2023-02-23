@@ -1,0 +1,21 @@
+[
+    {
+        "id" :49,
+        "title":"De Colores",
+        "price":980.00,
+        "category":"Vegetarianas",
+        "description":"Salsa, Muzzarella, Mix Morrones y Cebollas Verdeo, Tomates Cherry, Champiñones, Orégano.",
+        "pictureUrl":"../../assets/productos/49.jpg",
+        "stock":3
+    },
+    {
+        "id" :50,
+        "title":"Verduras Asadas",
+        "price":980.00,
+        "category":"Vegetarianas",
+        "description":"Salsa, Muzzarella, Verduras Asadas.",
+        "pictureUrl":"../../assets/productos/50.jpg",
+        "stock":7
+    }
+
+]

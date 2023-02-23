@@ -1,0 +1,26 @@
+[
+    {
+        "id" :35,
+        "title":"Jamon Crudo (Prosciutto)",
+        "price":1000.00,
+        "category":"Super",
+        "description":"Salsa, Muzzarella, Jamón Crudo, Provolone, Rúcula, Tomate Cherry.",
+        "pictureUrl":"../../assets/productos/35.jpg"
+    },
+    {
+        "id" :36,
+        "title":"Explosiva",
+        "price":1150.00,
+        "category":"Super",
+        "description":"Salsa, Muzzarella, Panceta, Jamón Crudo, Ajíes Vinagre, Ajo.",
+        "pictureUrl":"../../assets/productos/36.jpg"
+    },
+    {
+        "id" :39,
+        "title":"Salchichas",
+        "price":900.00,
+        "category":"Super",
+        "description":"Salsa, Muzzarella, Salchicha, Papa Pay, Salsa Fugaz.",
+        "pictureUrl":"../../assets/productos/39.jpg"
+    }
+]
