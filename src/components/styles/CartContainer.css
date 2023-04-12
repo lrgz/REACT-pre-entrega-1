@@ -1,0 +1,151 @@
+.cart-container {
+  width: 95%;
+  max-width: 1110px;
+  margin: auto;
+}
+.table-title {
+  font-family: sans-serif;
+  color: hsl(0, 0%, 0%);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.table-head,
+.table-foot {
+  width: 100%;
+  height: 4rem;
+  padding: 0 2rem;
+  background-color: var(--color-principal-jc);
+}
+.clear {
+  margin-top: 1rem;
+  background-color: hsl(90, 35%, 45%);
+  margin-bottom: 5rem;
+}
+.minus,
+.plus,
+.delete {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: var(--color-principal-jc);
+}
+.delete {
+  color: hsl(90, 35%, 45%);
+}
+
+.th-index {
+  width: 5rem;
+}
+.th-name {
+  width: 30rem;
+}
+.th-qty {
+  width: 10rem;
+}
+.th-price {
+  width: 7rem;
+}
+.th-subtotal {
+  width: 7rem;
+}
+.th-edit {
+  width: 14rem;
+}
+
+.table-td-index {
+  width: 5rem;
+  font-size: 1.5rem;
+}
+.table-td-name {
+  width: 30rem;
+  font-size: 1.5rem;
+}
+.table-td-qty {
+  width: 10rem;
+  font-size: 1.5rem;
+}
+.table-td-price {
+  width: 7rem;
+  font-size: 1.5rem;
+}
+.table-td-subtotal {
+  width: 7rem;
+  font-size: 1.5rem;
+}
+.table-td-edit {
+  margin: auto;
+  width: 14rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bg-order-window {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--color-violet-70-jc);
+  z-index: 1;
+}
+.order-container {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 15rem;
+  padding: 0rem 5rem 7rem 5rem;
+  background-color: var(--color-second-jc);
+  border-radius: 1rem;
+}
+.order-container p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 0%);
+}
+.inputs-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.inputs-conteiner div label {
+  display: block;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+.inputs-conteiner div input {
+  width: 100%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.5rem 0;
+  background-color: var(--color-principal-jc);
+}
+.btn-order {
+  font-size: 1.3rem;
+  font-family: inherit;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 17rem;
+  cursor: pointer;
+  background-color: hsl(90, 35%, 45%);
+  margin-top: 2rem;
+}
+span {
+  color: red;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}

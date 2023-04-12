@@ -1,0 +1,62 @@
+.home-bg {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/react-comision-45105.appspot.com/o/bg2.jpg?alt=media&token=744deeb2-f66a-4f07-8f4c-0875a439e09e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 37rem;
+  margin: -6rem auto 5rem auto;
+}
+.title {
+  max-width: 90vw;
+  font-size: 5.5rem;
+  line-height: 6.2rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  color: var(--color-second-jc);
+  margin: auto;
+  padding: 11rem 1rem 0 1rem;
+  text-shadow: var(--color-principal-jc) 0.2rem -0.15rem 0.2rem;
+}
+.category-title {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+.not-found-text {
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+.list-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.item-list {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2rem 2rem;
+}
+.item-card {
+  margin: auto;
+  width: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    width: 650px;
+    padding-top: 12rem;
+    font-size: 6rem;
+    line-height: 7.5rem;
+  }
+  .category-title {
+    font-size: 3.5rem;
+    padding-bottom: 4rem;
+  }
+}

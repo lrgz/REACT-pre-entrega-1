@@ -1,0 +1,104 @@
+.navbar-main {
+  margin-top: 3.5rem;
+  height: 70px;
+  background-color: var(--color-principal-jc);
+  width: 100%;
+}
+.navbar-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.navlogo-container {
+  align-items: center;
+}
+.navbar-logo {  
+  width: 15rem;
+}
+.navlist-container,
+.navcart-container {
+  padding: 2rem 3rem;
+}
+.navlist-container {
+  min-width: 50%;
+  text-align: center;
+}
+.nav-menu {
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  padding: 0.5rem;
+  cursor: pointer;
+  line-height: 3rem;
+}
+.nav-menu:hover {
+  color: var(--color-second-jc);
+}
+.navlist {
+  padding: 1.5rem 0;
+  margin: 0;
+  width: 100%;
+  left: 0;
+  background-color: var(--color-principal-jc);
+}
+.navlist-list {
+  height: 0;
+  overflow: hidden;
+}
+.navlist-list.open {
+  height: 100%;
+  transition: height 600ms ease-in-out;
+}
+.navlist-item {
+  font-size: 3rem;
+  list-style: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  line-height: 3rem;
+  font-family: "Dancing Script", cursive;
+}
+.navlist-item:hover {
+  color: var(--color-second-jc);
+}
+.cart-icon {
+  font-size: 3rem;
+  color: var(--color-second-jc);
+}
+.quantity {
+  background-color: var(--color-second-jc);
+  position: relative;
+  top: -4rem;
+  left: 1.5rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  z-index: 10;
+}
+@media screen and (min-width: 768px) {
+  .navlist-container,
+  .navcart-container {
+    padding: 2rem 3rem;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .navlist {
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    width: 38rem;
+    left: 0;
+  }
+  .navlist-item {
+    padding: 0;
+  }
+  .navlist-list {
+    overflow: visible;
+  }
+}
