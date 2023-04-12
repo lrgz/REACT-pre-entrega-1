@@ -1,34 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/header/Navbar';
-import ItemListContainer from './components/main/ItemListContainer';
-import {BrowserRouter,Routes,Route } from 'react-router-dom';
-import Cart from './components/Cart/Cart';
-
-
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { CartContextProvider } from "./context/CartContext";
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import CartContainer from "./components/CartContainer";
 function App() {
-
-  const msg= "Las mejores pizzas para hornear";
-
   return (
-    <BrowserRouter>
-      <Navbar/>   
-      <Routes>
-          <Route path="/" element={<ItemListContainer msg={msg}/> }/> 
-          <Route path="/categoria/:categoria" element={<ItemListContainer msg={msg}/> }/> 
-          <Route path="/product/:id" element={<ItemListContainer msg={msg}/> }/> 
-          <Route path="/cart" element={<Cart/>}/>           
-      </Routes>     
-    </BrowserRouter>
+    <CartContextProvider>
+      <div className="appContainer">
+        <header className="header">
+          <NavBar />
+        </header>
+        <main className="main">
+          <Routes>
+            <Route path="/" element={<ItemListContainer />} />
+            <Route
+              path="/category/:categoryId"
+              element={<ItemListContainer />}
+            />
+            <Route path="/item/:id" element={<ItemDetailContainer />} />
+            <Route path="/cart" element={<CartContainer />} />
+          </Routes>
+        </main>
+      </div>
+    </CartContextProvider>
   );
-};
+}
 
 export default App;
-
-
-/*<ItemListContainer msg={msg}/> 
-<ItemDeatilContainer /> 
-<Route path="*" element={<Error404/>}/> 
-
-*/ 
-
